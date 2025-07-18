@@ -29,7 +29,7 @@ export default function GetExtensions({prevExtension,setExtension,filter}) {
         <>
         {filtredExtensions.map((item, index) => {
             return (
-                <div key={item.id} className="rounded-2xl border-[1px] p-3 flex flex-col gap-4 shadow-lg shadow-[#000]/10 dark:shadow-[#fff]/10 dark:bg-gray-600/30 dark:border-white/10 bg-white border-gray-300/30">
+                <div key={item.id} className="rounded-2xl border-[1px] p-3 flex flex-col justify-between gap-4 shadow-lg shadow-[#000]/10 dark:shadow-[#fff]/10 dark:bg-gray-600/30 dark:border-white/10 bg-white border-gray-300/30">
                     <div className="flex gap-3">
                         <img src={item.logo} className="h-14 w-auto" alt={item.name}/>
                         <div className="flex flex-col gap-2">
